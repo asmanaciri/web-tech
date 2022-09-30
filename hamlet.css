@@ -1,0 +1,40 @@
+*{
+    display : block;
+}
+play 
+{
+    background-color: bisque;
+    padding: 1em;
+}
+author, title{
+    text-align: center;
+    font-variant: small-caps;
+}
+author, act>title{
+    font-size: x-large;
+}
+
+scene>title {
+    font-size: large;
+    border: thin solid red;
+}
+play>title {
+    font-size: xx-large;
+    border-bottom: medium solid black;
+}
+speaker{
+    font-weight: bold;
+}
+stagedir{
+    color: gray;
+    font-style: italic;
+}
+stagedir::before{
+    content: "(";
+}
+stagedir::after{
+    content: ")";
+}
+line {
+    margin-left: 1em ;
+}
