@@ -1,0 +1,64 @@
+movies { background-color: aliceblue;
+
+}
+movie{
+    display: list-item;
+    list-style-type:"\1F3A5";
+    padding: 0.5em;
+    margin-left: 2em;
+    font-size: large;
+}
+year::before{
+    content: "(";
+} 
+year::after{
+    content: "):";
+}
+title:lang(hu){
+    display: none;
+}
+title:lang(ja){
+    display: none;
+}
+title:lang(el){
+    display: none;
+}
+title:lang(it){
+    display: none;
+}
+title:lang(fr){
+    display: none;
+}
+title:lang(eng){
+    display: contents;
+}
+rating::after{
+    content: "/10";
+}
+votes::before{
+    content:"from ";
+}
+votes::after{
+    content:" ratings";
+}
+genre{
+    background-color: slateblue;
+    color:white;
+    padding-bottom: 0.25em;
+    padding-top: 0.25em;
+    padding-left: 1em;
+    padding-right:1em;
+    border-radius: 0.25em;
+    width: 5em;
+    text-align: center;
+    display: inline;
+}
+rating{
+    background-color: hotpink;
+    color:white;
+    padding-bottom:0.25em;
+    padding-top:0.25em;
+    padding-left: 0.5em;
+    padding-right:0.5em;
+    border-radius: 0.25em;
+}
