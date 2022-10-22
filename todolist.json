@@ -1,0 +1,49 @@
+
+
+{
+    
+    "title":"My to do list",
+    "tasks": [
+    { 
+        "description":"Book an appointment with GP's office",
+        "priority":"high",
+        "status":"closed",
+        "creation_date":"2022-09-13"
+    },
+    {
+        "description":"Buy flour+ eggs+ bacon",
+        "priority":"medium",
+        "status":"open",
+        "creation_date":"2022-10-04"
+    },
+    {
+        "description":"Submit assignment for web technologies",
+        "priority":"high",
+        "status":"closed",
+        "creation_date":"2022-10-19"
+    },
+    { 
+        "description":"Clean up the appartment",
+        "priority":"low",
+        "status":"open", 
+        "creation_date":"2022-10-22"
+        },
+    { 
+        "description":"Do yoga", 
+        "priority":"medium",
+        "status":"closed",
+        "creation_date":"2022-10-20"
+        }
+]
+
+}
+
+
+
+
+
+
+
+
+
+
