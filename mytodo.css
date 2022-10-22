@@ -1,0 +1,77 @@
+header {padding: 2em;
+    margin-left: 3em;
+    letter-spacing: 1em;
+    font-weight: bold;
+    font-size: x-large;
+    align-items: center;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    
+} 
+
+
+my_to_do_list{
+    background-color: lightblue;
+    margin: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+task_list{ display: list-item; 
+    padding: 2em;
+    margin-bottom: 2em;
+    list-style-type: none;
+    margin-left: 20em;
+       
+}
+
+creation_date{
+    display: list-item;
+    list-style-type: "\1F4C5";
+    color: darkgray;
+    font-variant: small-caps;
+    margin-left: 3em;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: small ;
+    
+}
+task{
+    display: list-item;
+    list-style-type: "\1D977";
+    cursor: pointer;
+    font-weight: 200;
+    padding: 1em;
+    margin-left: 2em;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 0.90em;
+    width: 30em;
+
+}
+
+task:hover{
+    font-weight: bolder;
+    font-size: larger;
+}
+
+task[priority="high"]{
+    background-color: red;
+    
+
+}
+task[priority="medium"]{
+    background-color: lavender;
+}
+task[priority="low"]{
+    background-color: rgb(176, 255, 73);
+}
+task[status="open"]{
+    list-style-type: "\274C";
+
+}
+task[status="closed"]{
+    list-style-type: "\2705";
+}
+
+
+

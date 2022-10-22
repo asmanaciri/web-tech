@@ -1,0 +1,9 @@
+<!ELEMENT my_to_do_list (header, task_list)>
+<!ELEMENT header (#PCDATA)>
+<!ELEMENT task_list (task+)>
+<!ELEMENT task (#PCDATA|creation_date)*>
+<!ELEMENT creation_date (#PCDATA)>
+<!ATTLIST task priority (high|medium|low) #REQUIRED>
+<!ATTLIST task status (open|closed) #REQUIRED>
+
+

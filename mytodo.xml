@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE my_to_do_list SYSTEM "mytodo.dtd">
+<?xml-stylesheet href="mytodo.css" type="text/css"?>
+<my_to_do_list>
+    <header>My to do list </header>
+    <task_list>
+        <task priority="high" status="open">Book an appointment with the GP's office
+          <creation_date>Created on:15-10-2022</creation_date>
+        </task>
+
+        <task priority="medium" status="closed">Submit essay paper for Bioinformatics course
+            <creation_date>Created on:19-10-2022</creation_date>
+          </task>
+        <task priority="low" status="open">Look up fast easy meals to cook
+          <creation_date> Created on:06-09-2022</creation_date>
+        </task>
+        <task priority= "high" status="closed">Sign up for Cloud Computing online training
+          <creation_date>Created on:11-10-2022</creation_date>
+        </task>
+        <task priority="low" status="open">Buy yoga mat for P.E class
+            <creation_date>Created on:20-10-2022</creation_date>
+        </task>
+        <task priority="medium" status="closed">Buy eggs + flour + baking powder
+            <creation_date>Created on:19-10-2022</creation_date>
+          </task>
+          <task priority="high" status="open">Apply for summer internship
+            <creation_date>Created on:01-08-2022</creation_date>
+          </task>
+          <task priority="low" status="open">Return book to the library
+            <creation_date>Created on:14-10-2022</creation_date>
+          </task>
+    </task_list>
+</my_to_do_list>
