@@ -1,5 +1,4 @@
 
-
 {
     
     "title":"My to do list",
@@ -8,31 +7,37 @@
         "description":"Book an appointment with GP's office",
         "priority":"high",
         "status":"closed",
-        "creation_date":"2022-09-13"
+        "creation_date":"2022-09-13",
+        "label":"Health"
     },
     {
         "description":"Buy flour+ eggs+ bacon",
         "priority":"medium",
         "status":"open",
-        "creation_date":"2022-10-04"
+        "creation_date":"2022-10-04",
+        "label":"Shopping"
     },
     {
         "description":"Submit assignment for web technologies",
         "priority":"high",
         "status":"closed",
-        "creation_date":"2022-10-19"
+        "creation_date":"2022-10-19",
+        "label":"University"
+
     },
     { 
         "description":"Clean up the appartment",
         "priority":"low",
         "status":"open", 
-        "creation_date":"2022-10-22"
+        "creation_date":"2022-10-22",
+        "label":"Miscenalleous"
         },
     { 
         "description":"Do yoga", 
         "priority":"medium",
         "status":"closed",
-        "creation_date":"2022-10-20"
+        "creation_date":"2022-10-20",
+        "label":"Health"
         }
 ]
 
