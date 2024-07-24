@@ -1,1 +1,1 @@
-homework, practice and tasks for web technology
+homework, practice and tasks for web technology course
